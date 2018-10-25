@@ -1,8 +1,15 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
 
-  </div>
+        <b-jumbotron>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                 <h1>PWA-VUe.Js</h1>
+                 <p class="lead">Using Vue.js to access the native features of the mobile or desktop device from the Native Behavior, Camera and Microphone categories</p>
+                  <p class="font-italic">By: Allan Cruz</p>
+                 <b-btn target="_blank" variant="success" href="https://github.com/allanncruz/PWA-VueJs">GIthub</b-btn>
+                </div>
+            </div>
+        </b-jumbotron>
 </template>
 
 <script>

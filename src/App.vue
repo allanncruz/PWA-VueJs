@@ -1,27 +1,23 @@
 <template>
   <div id="app">
     <header>
-      <b-navbar toggleable="md" type="dark" >
-
-        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-
-        <b-navbar-brand href="#">Vue.js PWA</b-navbar-brand>
-
-        <b-collapse is-nav id="nav_collapse">
-
-          <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-
-            <b-navbar-nav>
-              <b-nav-item href="/#/foreground-detection">Foreground Detection</b-nav-item>
-              <b-nav-item href="/#/local-notifications">Local Notifications</b-nav-item>
-            </b-navbar-nav>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
+        <b-navbar toggleable="md" type="dark" >
+            <div class="container">
+                <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+                <b-navbar-brand href="#">Vue.js PWA</b-navbar-brand>
+                <b-collapse is-nav id="nav_collapse">
+                  <!-- Right aligned nav items -->
+                  <b-navbar-nav class="ml-auto">
+                    <b-navbar-nav>
+                      <b-nav-item href="/#/foreground-detection">Foreground Detection</b-nav-item>
+                      <b-nav-item href="/#/local-notifications">Local Notifications</b-nav-item>
+                    </b-navbar-nav>
+                  </b-navbar-nav>
+                </b-collapse>
+            </div>
+          </b-navbar>
     </header>
     <main class="text-center">
-      <img src="./assets/logo.png" alt="Vue.js PWA">
       <router-view></router-view>
     </main>
   </div>
