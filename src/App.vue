@@ -13,8 +13,8 @@
           <b-navbar-nav class="ml-auto">
 
             <b-navbar-nav>
-              <b-nav-item href="#">Foreground Detection</b-nav-item>
-              <b-nav-item href="#">Local Notifications</b-nav-item>
+              <b-nav-item href="/#/foreground-detection">Foreground Detection</b-nav-item>
+              <b-nav-item href="/#/local-notifications">Local Notifications</b-nav-item>
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>
