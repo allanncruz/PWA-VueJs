@@ -4,6 +4,7 @@ import Home from '@/components/home'
 import LocalNotifications from '@/components/local-notifications.vue'
 import ForeGroundDetection from '@/components/foreground-detection.vue'
 import Permissions from '@/components/permissions.vue'
+import CamMicrophone from '@/components/cam-microphone.vue'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
         path: '/permissions',
         name: 'Permissions',
         component: Permissions
+    },
+    {
+      path: '/cam-microphone',
+      name: 'CamMicrophone',
+      component: CamMicrophone
     }
   ]
 })

@@ -12,6 +12,7 @@
                       <b-nav-item href="/#/foreground-detection">Foreground Detection</b-nav-item>
                       <b-nav-item href="/#/local-notifications">Local Notifications</b-nav-item>
                       <b-nav-item href="/#/permissions">Permissions</b-nav-item>
+                      <b-nav-item href="/#/cam-microphone">Cam and Microphone</b-nav-item>
 
                     </b-navbar-nav>
                   </b-navbar-nav>
@@ -19,7 +20,7 @@
             </div>
           </b-navbar>
     </header>
-    <main class="text-center py-5">
+    <main class="text-center">
       <router-view></router-view>
     </main>
   </div>
