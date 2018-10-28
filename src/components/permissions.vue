@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h1>Permissões</h1>
+        <h1 class="m-5">Permissões</h1>
 
         <a href="" @click.prevent="readPermission()">Ler Permissão</a>
 

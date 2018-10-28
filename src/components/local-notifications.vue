@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<h1>Notificações Locais</h1>
+		<h1 class="m-5">Notificações Locais</h1>
 
 		<p> 
 			Permissão: {{ permission}}
