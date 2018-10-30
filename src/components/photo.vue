@@ -50,10 +50,11 @@ export default {
                     let element = document.querySelector('img.photo')
                     element.src = window.URL.createObjectURL(blob)
 
-//                    let form = new FormData();
-//                    form.append('image',blob);
-//                    form.append('id', 1);
-//                    form.append('title','Foto do perfil');
+                    /**let form = new FormData();
+                     form.append('image', blob);
+                     form.append('id', 1);
+                     form.append('title', 'foto do erik');
+                     window.axios.post('/url/para/receber', form).then();**/
                 })
         }
     }

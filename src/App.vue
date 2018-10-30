@@ -13,6 +13,7 @@
                       <b-nav-item href="/#/local-notifications">Local Notifications</b-nav-item>
                       <b-nav-item href="/#/permissions">Permissions</b-nav-item>
                       <b-nav-item href="/#/cam-microphone">Cam and Microphone</b-nav-item>
+                      <b-nav-item href="/#/photo">Taking photo</b-nav-item>
 
                     </b-navbar-nav>
                   </b-navbar-nav>

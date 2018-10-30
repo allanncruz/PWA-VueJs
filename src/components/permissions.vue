@@ -22,11 +22,10 @@
                     // name: 'notifications'
                     // name: 'midi'
                     name: 'push',
-                    userVisibleOnly:true
+                    userVisibleOnly: true
                 })
-
                 permission.then((response) => {
-                    this.permissionStatus = response.state
+                    this.permissionStatus  = response.state
                     console.log(response)
                 })
             }
