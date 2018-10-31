@@ -7,6 +7,7 @@ import Permissions from '@/components/permissions.vue'
 import CamMicrophone from '@/components/cam-microphone.vue'
 import Photo from '@/components/photo.vue'
 import Recorder from '@/components/recorder.vue'
+import RealTime from '@/components/real-time.vue'
 
 Vue.use(Router)
 
@@ -46,6 +47,11 @@ export default new Router({
         path: '/recorder',
         name: 'Recorder',
         component: Recorder
+    },
+    {
+        path: '/real-time',
+        name: 'RealTime',
+        component: RealTime
     }
   ]
 })
