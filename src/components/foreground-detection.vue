@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h1 class="m-5">verificação de primeiro plano</h1>
+        <h1 class="m-5">Verificação de Primeiro Plano</h1>
 
         <p>
             Contagem regressiva: {{counter}}

@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h1 class="m-5">Gravando video e áudio</h1>
+        <h1 class="m-5">Gravando Vídeo e Áudio</h1>
 
         <b-container>
             <b-row align-v="center">
