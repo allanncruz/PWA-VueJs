@@ -5,7 +5,7 @@
         <b-container>
             <b-row align-v="center">
                 <b-col col md="6">
-                    <video src="" controls autoplay></video>
+                    <video class="w-100" src="" controls autoplay></video>
                     <a href="" @click.prevent="getVideo">Iniciar</a>
                 </b-col>
                 <b-col col md="6">

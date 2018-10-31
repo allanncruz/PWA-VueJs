@@ -4,12 +4,12 @@
 
         <b-container>
             <b-row align-v="center">
-                <b-col col md="6">
-                    <video src="" controls autoplay></video>
+                <b-col md="6">
+                    <video class="w-100" src="" controls autoplay></video>
                     <a href="" @click.prevent="getVideo">Iniciar</a>
                 </b-col>
-                <b-col col md="6">
-                    <img class="photo">
+                <b-col md="6">
+                    <img class="photo w-100">
                     <a href="" @click.prevent="getPhoto">Tirar Foto</a>
                 </b-col>
             </b-row>

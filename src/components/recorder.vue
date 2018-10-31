@@ -4,11 +4,11 @@
 
         <b-container>
             <b-row align-v="center">
-                <b-col col md="6">
-                    <video src="" controls autoplay></video>
+                <b-col md="6">
+                    <video class="w-100" src="" controls autoplay></video>
                     <a href="" @click.prevent="startRecorder">Iniciar</a>
                 </b-col>
-                <b-col col md="6">
+                <b-col md="6">
                     <a href="" @click.prevent="getDownload">Download</a>
                 </b-col>
             </b-row>

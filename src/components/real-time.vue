@@ -4,13 +4,13 @@
 
         <b-container>
             <b-row align-v="center">
-                <b-col col md="6">
+                <b-col md="6">
                     <h3>Local</h3>
-                    <video class="local" src="" controls autoplay></video>
+                    <video class="local w-100" src="" controls autoplay></video>
                 </b-col>
-                <b-col col md="6">
+                <b-col md="6">
                     <h3>Remoto</h3>
-                    <video class="remote" src="" controls autoplay></video>
+                    <video class="remote w-100" src="" controls autoplay></video>
                 </b-col>
             </b-row>
         </b-container>
